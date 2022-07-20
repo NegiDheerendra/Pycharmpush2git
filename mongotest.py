@@ -8,7 +8,7 @@ dict1={
     "name":"dheerendra",
     "email":"abc@gmail.com"
 }
-
+#changes in already written code
 conn = client['mongotest']
 coll=conn['test']
 coll.insert_one(dict1)
